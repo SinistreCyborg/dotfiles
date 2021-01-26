@@ -10,6 +10,6 @@
 [submodule ".vim/pack/style/start/lightline.vim"]
 	path = .vim/pack/style/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
-[submodule "/Users/cyborg/.vim/pack/style/start/oceanic-next"]
-	path = /Users/cyborg/.vim/pack/style/start/oceanic-next
+[submodule ".vim/pack/style/start/oceanic-next-vim"]
+	path = .vim/pack/style/start/oceanic-next-vim
 	url = https://github.com/adrian5/oceanic-next-vim.git
