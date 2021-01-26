@@ -1,1 +1,8 @@
 set number
+
+set termguicolors
+syntax on
+
+colorscheme oceanicnext
+
+let g:lightline = { 'colorscheme': 'oceanicnext' }
