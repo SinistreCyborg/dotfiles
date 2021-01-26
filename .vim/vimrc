@@ -1,8 +1,26 @@
 set number
+set mouse=a
+set smarttab
+set cindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
+set background=dark
 set termguicolors
 syntax on
-
 colorscheme oceanicnext
+
+filetype plugin indent on
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+map <C-n> :NERDTreeToggle<CR>
 
 let g:lightline = { 'colorscheme': 'oceanicnext' }
