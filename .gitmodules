@@ -4,3 +4,9 @@
 [submodule ".vim/pack/files/start/ctrlp.vim"]
 	path = .vim/pack/files/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule ".vim/pack/style/start/lightline.vm"]
+	path = .vim/pack/style/start/lightline.vm
+	url = https://github.com/itchyny/lightline.vim
+[submodule ".vim/pack/style/start/lightline.vim"]
+	path = .vim/pack/style/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
