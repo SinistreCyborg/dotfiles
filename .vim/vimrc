@@ -23,4 +23,6 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 map <C-n> :NERDTreeToggle<CR>
 
+set laststatus=2
+set noshowmode
 let g:lightline = { 'colorscheme': 'oceanicnext' }
