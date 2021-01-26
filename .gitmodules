@@ -13,3 +13,6 @@
 [submodule ".vim/pack/style/start/oceanic-next-vim"]
 	path = .vim/pack/style/start/oceanic-next-vim
 	url = https://github.com/adrian5/oceanic-next-vim.git
+[submodule ".vim/pack/style/start/limelight.vim"]
+	path = .vim/pack/style/start/limelight.vim
+	url = https://github.com/junegunn/limelight.vim
