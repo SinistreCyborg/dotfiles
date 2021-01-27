@@ -23,7 +23,30 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 map <C-n> :NERDTreeToggle<CR>
 map <C-l> :Limelight!!0.8<CR>
+map <C-c> :VimtexCompile<CR>
 
+" Statusline config
 set laststatus=2
 set noshowmode
 let g:lightline = { 'colorscheme': 'oceanicnext' }
+
+" Vimtex config
+let g:vimtex_view_method = "skim"
+let g:tex_flavor = "xelatex"
+
+" COC config
+set hidden
+set nobackup
+set nowritebackup
+set cmdheight=2
+set updatetime=300
+set shortmess+=c
+
+if has("patch-8.1.1564")
+  set signcolumn=number
+else
+  set signcolumn=yes
+endif
+
+inoremap <silent><expr> <c-@> coc#refresh()
+
